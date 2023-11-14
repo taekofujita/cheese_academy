@@ -1,0 +1,39 @@
+.inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+    }
+.header {
+        background: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        }
+.header-inner {
+            display: flex;
+            align-items: center;
+            }
+.header-title a{
+                color: #333;
+                font-size: 24px;
+                font-weight: bold;
+                }
+.header-nav {
+                    margin-left: auto;
+                    }
+.header-nav-list {
+                        display: flex;
+                        }
+.header-nav-item:not(:first-child){
+                            margin-left: 40px;
+                            }
+.header-nav-item-link {
+                                display: block;
+                                color: #333;
+                                height: 50px;
+                                line-height: 50px;
+                                }
+main {
+                                    padding-top: 50px;
+                                    }
